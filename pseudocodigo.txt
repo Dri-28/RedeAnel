@@ -1,0 +1,55 @@
+Classes No
+        ListaDuplamenteLigadaCircular
+        Conexao
+
+Classe ListaDuplamenteLigadaCircular
+       
+    insira(No n) 
+     P
+      
+      No tmp;
+      tmp=new No(n);
+      Se(n!=null)
+      Se(p==null)   
+        primeiro=tmp;
+        ant=tmp;
+        prox=tmp;
+
+        Senao
+          ultimo.prox=tmp;
+          tmp.ant=ultimo
+          tmp.prox=ultimo.prox
+          primeiro.ant=tmp;
+      Senao
+       ERRO
+
+
+   REMOVE(No n)
+      Se(L!=null) 
+        Se(P=U=N)
+         n=null
+       Senao
+       aux=P
+      anterior;
+    
+      Se (n.getInfo().equals()primeiro.getInfo)
+         {
+          ultimo.prox=primeiro.prox;
+          primeiro.prox=primeiro.ant;
+          primeiro=primeiro.prox;
+           }
+        Se(n.getInfo().equals()ultimo.getInfo)
+          {
+           primeiro.ant=ultimo.ant
+           ultimo.ant=ultimo.prox;
+            ultimo=ultimo.ant;
+           } 
+           
+         enquanto(!n.getInfo()equal()aux.getInfo)
+      {
+       aux=aux.prox()
+       anterior=aux;
+      }
+      
+      aux.ant.prox=aux.prox;
+      aux.prox.ant=aux.ant;

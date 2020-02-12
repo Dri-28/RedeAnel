@@ -1,0 +1,4 @@
+primeiro.info.equals(i)
+ultimo.prox=primeiro.prox
+primeiro.prox=ultimo
+primeiro=primeiro.prox;
